@@ -95,22 +95,22 @@ func PuzzleTwo() (int, error) {
 	return (first + second + third), nil
 }
 
-func main() {
-	solutionOne, err := PuzzleOne()
-	if err != nil {
-		fmt.Println("There was an error getting the solution to puzzle one.")
-	}
+// func main() {
+// 	solutionOne, err := PuzzleOne()
+// 	if err != nil {
+// 		fmt.Println("There was an error getting the solution to puzzle one.")
+// 	}
 
 
-	solutionTwo, err := PuzzleTwo()
-	if err != nil {
-		fmt.Println("There was an error getting the solution to puzzle two.")
-	}
+// 	solutionTwo, err := PuzzleTwo()
+// 	if err != nil {
+// 		fmt.Println("There was an error getting the solution to puzzle two.")
+// 	}
 
-	// Print solutions
-	fmt.Println("The solution to puzzle one is: ", solutionOne)
-	fmt.Println("The solution to puzzle two is: ", solutionTwo)
-}
+// 	// Print solutions
+// 	fmt.Println("The solution to puzzle one is: ", solutionOne)
+// 	fmt.Println("The solution to puzzle two is: ", solutionTwo)
+// }
 
 
 
